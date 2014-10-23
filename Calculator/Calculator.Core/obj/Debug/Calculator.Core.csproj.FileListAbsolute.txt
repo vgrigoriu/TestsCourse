@@ -1,5 +1,0 @@
-C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Core\bin\Debug\Calculator.Core.dll
-C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Core\bin\Debug\Calculator.Core.pdb
-C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Core\obj\Debug\Calculator.Core.csprojResolveAssemblyReference.cache
-C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Core\obj\Debug\Calculator.Core.dll
-C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Core\obj\Debug\Calculator.Core.pdb
