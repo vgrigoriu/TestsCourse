@@ -1,2 +1,6 @@
-Calculator/Calculator.Tests/obj/Debug/build.force
+Calculator/Calculator.Tests/obj/*
 Calculator/Calculator.v11.suo
+Calculator/Calculator.Core/obj/*
+Calculator/Calculator.Core/Bin/*
+Calculator/Calculator.Tests/obj/*
+Calculator/Calculator.Tests/bin/*
