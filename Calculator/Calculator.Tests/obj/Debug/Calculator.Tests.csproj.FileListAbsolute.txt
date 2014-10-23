@@ -3,3 +3,5 @@ C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Tests\bin\Debug
 C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Tests\bin\Debug\Calculator.Tests.pdb
 C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Tests\obj\Debug\Calculator.Tests.dll
 C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Tests\obj\Debug\Calculator.Tests.pdb
+C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Tests\bin\Debug\Calculator.Core.dll
+C:\Users\Raul\Documents\GitHub\TestsCourse\Calculator\Calculator.Tests\bin\Debug\Calculator.Core.pdb

@@ -6,17 +6,28 @@ using System.Threading.Tasks;
 
 namespace Calculator.Core
 {
-    public class Calculator
+    public class CalculatorEngine
     {
         public double CurrentValue { get; set; }
-        public double Total { get; set; }
+        public double? Total { get; set; }
         
         public void Add()
-        {   
+        {
+            if (!Total.HasValue)
+            {
+                Total = 0;
+            }
+
+            Total += CurrentValue;
         }
 
         public void Subtruct()
         {
+            if (!Total.HasValue)
+            {
+                Total = 0;
+            }
+            Total -= CurrentValue;
         }
 
         public void Multiply()
