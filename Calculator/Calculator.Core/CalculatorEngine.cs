@@ -27,15 +27,18 @@ namespace Calculator.Core
             {
                 Total = 0;
             }
+
             Total -= CurrentValue;
         }
 
         public void Multiply()
         {
+
         }
 
         public void Divide()
         {
+
         }
 
 

@@ -15,7 +15,7 @@ namespace Calculator.Tests
 
         [TestMethod]
         //1.Incearca sa strici codul astfel incat sa pice testul
-        public void Add_OneTimes_TotalIsEqualWIthCurrentValue()
+        public void Add_5ToDefault_TotalIs5()
         {
             CalculatorEngine calculator = new CalculatorEngine();
             calculator.CurrentValue = 5;
@@ -27,7 +27,7 @@ namespace Calculator.Tests
 
         [TestMethod]
         //2.Adauga testul asta pentru a fi sigur ca trece testul
-        public void Add_TwoTimes_CurrentValueAreAddedToTotal()
+        public void Add_5TwiceToDefault_TotalIs10()
         {
             CalculatorEngine calculator = new CalculatorEngine();
             calculator.CurrentValue = 5;
@@ -39,7 +39,7 @@ namespace Calculator.Tests
         }
 
         [TestMethod]
-        public void Subtract_TwoTimes_CurrentValueIsSubtractedTwice()
+        public void Subtract_TwoTimes8From45_TotalIs29()
         {
             CalculatorEngine calculator = new CalculatorEngine();
             calculator.Total = 45;
@@ -51,5 +51,23 @@ namespace Calculator.Tests
             Assert.AreEqual(29, calculator.Total);
         }
 
+        [TestMethod]
+        public void Multiply_DefaultBy5_TotalIs5()
+        {
+            CalculatorEngine Calculator = new CalculatorEngine();
+            Calculator.CurrentValue = 5;
+            Calculator.Multiply();
+            Assert.AreEqual(5, Calculator.Total);
+        }
+
+        [TestMethod]
+        public void Multiply_4By5_TotalIs20()
+        {
+            CalculatorEngine Calculator = new CalculatorEngine();
+            Calculator.Total = 4;
+            Calculator.CurrentValue = 5;
+            Calculator.Multiply();
+            Assert.AreEqual(20, Calculator.Total);
+        }
     }
 }
