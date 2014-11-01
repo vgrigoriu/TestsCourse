@@ -8,14 +8,17 @@ namespace Calculator.Core
 {
     public class CalculatorEngine
     {
+        private Action action;
         public double CurrentValue { get; set; }
         public double? Total { get; set; }
         
+        
+
         public void Add()
         {
             if (!Total.HasValue)
             {
-                Total = 0;
+                //Total = 0;
             }
 
             Total += CurrentValue;
