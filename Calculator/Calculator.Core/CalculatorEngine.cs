@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator.Core
 {
-    public class Calculator
+    public class CalculatorEngine
     {        
         private double? total;
 

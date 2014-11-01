@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Calculator.Tests
 {
     [TestClass]
-    public class CalculatorTests
+    public class CalculatorEngineTests
     {
 
     }
