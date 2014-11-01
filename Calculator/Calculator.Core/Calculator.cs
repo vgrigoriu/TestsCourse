@@ -7,26 +7,37 @@ using System.Threading.Tasks;
 namespace Calculator.Core
 {
     public class Calculator
-    {
-        public double CurrentValue { get; set; }
-        public double Total { get; set; }
-        
-        public void Add()
-        {   
-        }
+    {        
+        private double? total;
 
-        public void Subtruct()
+        public void Set(double value)
         {
+            throw new NotImplementedException();
         }
 
-        public void Multiply()
+        public void Add(double value)
         {
+            throw new NotImplementedException();
         }
 
-        public void Divide()
+        public void Subtruct(double value)
         {
+            throw new NotImplementedException();
         }
 
+        public void Multiply(double value)
+        {
+            throw new NotImplementedException();
+        }
 
+        public void Divide(double value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public double GetTotal()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
